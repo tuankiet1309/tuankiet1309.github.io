@@ -157,9 +157,15 @@
       <div class="contact1" id="contactText1">Contact</div>
       <div class="line-div"></div>
       <div class="home-child10"></div>
-      <div class="httpswwwfacebookcom">https://www.facebook.com/</div>
-      <div class="httpswwwinstagramcom">https://www.instagram.com/</div>
-      <div class="httpstwittercom">https://twitter.com/</div>
+      <div class="httpswwwfacebookcom" id="httpswwwfacebookcomText">
+        https://www.facebook.com/
+      </div>
+      <div class="httpswwwinstagramcom" id="httpswwwinstagramcomText">
+        https://www.instagram.com/
+      </div>
+      <div class="httpstwittercom" id="httpstwittercomText">
+        https://twitter.com/
+      </div>
       <div class="luongtuankiet12b1gmailcom">Luongtuankiet12b1@gmail.com</div>
       <div class="div2">0 3 7 7 4 5 9 3 3 9</div>
       <img class="image-8-icon" alt="" src="./public/image-8@2x.png" />
@@ -221,6 +227,31 @@
           if (anchor) {
             anchor.scrollIntoView({ block: "start", behavior: "smooth" });
           }
+        });
+      }
+      
+      var httpswwwfacebookcomText = document.getElementById(
+        "httpswwwfacebookcomText"
+      );
+      if (httpswwwfacebookcomText) {
+        httpswwwfacebookcomText.addEventListener("click", function () {
+          window.open("https://www.facebook.com/");
+        });
+      }
+      
+      var httpswwwinstagramcomText = document.getElementById(
+        "httpswwwinstagramcomText"
+      );
+      if (httpswwwinstagramcomText) {
+        httpswwwinstagramcomText.addEventListener("click", function () {
+          window.open("https://www.instagram.com/");
+        });
+      }
+      
+      var httpstwittercomText = document.getElementById("httpstwittercomText");
+      if (httpstwittercomText) {
+        httpstwittercomText.addEventListener("click", function () {
+          window.open("https://twitter.com/");
         });
       }
       </script>

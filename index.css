@@ -478,27 +478,30 @@
   width: 475px;
   height: 1px;
 }
-.div2,
-.httpstwittercom,
-.httpswwwfacebookcom,
-.httpswwwinstagramcom,
-.luongtuankiet12b1gmailcom {
+.httpswwwfacebookcom {
   position: absolute;
   top: 3476px;
   left: 558px;
   font-size: var(--font-size-13xl);
   color: var(--border-secondary);
+  cursor: pointer;
+}
+.httpswwwinstagramcom {
+  top: 3574px;
+  cursor: pointer;
 }
 .div2,
 .httpstwittercom,
 .httpswwwinstagramcom,
 .luongtuankiet12b1gmailcom {
-  top: 3574px;
+  position: absolute;
+  left: 558px;
+  font-size: var(--font-size-13xl);
+  color: var(--border-secondary);
 }
-.div2,
-.httpstwittercom,
-.luongtuankiet12b1gmailcom {
+.httpstwittercom {
   top: 3672px;
+  cursor: pointer;
 }
 .div2,
 .luongtuankiet12b1gmailcom {
